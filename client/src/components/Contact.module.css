@@ -1,0 +1,108 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.faq_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs {
+    position: relative;
+    margin: 10px 5%;
+    width: 40%;
+    align-self: center;
+}
+
+.checkbox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+h3 {
+    background-color: #8424bd;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+}
+
+.q::before {
+    content:"";
+    display: inline-block;
+    border: 15px solid transparent;
+    border-left:20px solid white;
+}
+
+.q {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.p {
+    max-height:0px;
+    overflow: hidden;
+    transition:max-height 0.5s;
+    background-color: white;
+    box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.p p {
+    padding:2em;
+    line-height: 23px;
+}
+
+.checkbox:checked ~ h3 .q::before{
+    border-left:15px solid transparent;
+    border-top:20px solid white;
+    margin-top:12px;
+    margin-right:10px;
+}
+
+.checkbox:checked:checked ~ h3 ~ .p{
+    max-height:200px;
+}
+
+.bottom_form {
+    width: 50%;
+    margin: 3em auto;
+}
+
+h4 {
+    font-size: 18pt;
+    color: grey;
+    text-align: center;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form_div {
+    margin: 15px;
+    width: auto;
+}
+
+button {
+    width: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #8424bd;
+    color: #fff;
+    font-size: 12pt;
+}
+

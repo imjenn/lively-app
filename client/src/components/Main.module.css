@@ -1,0 +1,146 @@
+.err_msg {
+    color: rgb(223, 26, 26);
+    margin-left: 10%;
+}
+
+.main_h1 {
+    text-align: left;
+    margin: 1% auto;
+    width: 80%;
+    color: #8424bd;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    gap: 5%;
+    width: 80%;
+    margin: 1em auto;
+    /* margin-top: 10px; */
+}
+
+input {
+    padding: 7px;
+    width: 300px;
+    border: 1px solid grey;
+    font-size: 14pt;
+}
+
+.search_btn {
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: #8424bd;
+    margin-left: -4%;
+    width: auto;
+}
+
+.search_btn:hover {
+    cursor: pointer;
+}
+
+.results {
+    background-color: whitesmoke;
+    padding: 2% 5%;
+    margin-top: 2%;
+}
+
+.date {
+    color: rgb(129, 129, 129);
+    margin-bottom: 1em;
+}
+
+.results_info > p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.chart {
+    width: 80% !important;
+    margin: 1em auto;
+}
+
+.chart_container {
+    border: 1px solid lightgrey;
+    padding: 3em 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.chart_info {
+    color: rgb(129, 129, 129);
+    font-weight: 500;
+    font-size: 10pt;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+.chart_title {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.analysis_box_div {
+    display: flex;
+}
+
+.analysis_box {
+    border: 1px solid grey;
+    padding: 10px;
+    width: 30%;
+    margin: 1em auto;
+    background-color: white;
+}
+
+.categories_tags {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: fit-content;
+}
+
+.categories_tags > p {
+    background-color: #754bdf;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.results {
+    gap: 20px;
+}
+
+.main_analysis_box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main_analysis_box > h2 {
+    margin-bottom: 10px;
+}
+
+.main_h4 {
+    width: 80%;
+    margin: 1em auto;
+    text-align: left;
+    font-weight: 400;
+    color: #000;
+}
+
+.analysis_container {
+    display: flex;
+    gap: 5%;
+    overflow: none;
+    margin: 3% 10%;
+}
